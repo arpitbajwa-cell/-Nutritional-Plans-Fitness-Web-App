@@ -1,0 +1,70 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6; /* Improve line spacing for better readability */
+}
+
+header {
+  background-color: #ffa500;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px; /* Increase font size for better emphasis */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.muscle-anatomy {
+  display: flex;
+  align-items: center;
+  background-color: #ffa500;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.muscle-info {
+  margin-left: 20px;
+}
+
+.muscle-info img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .muscle-anatomy {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .muscle-info {
+    margin: 20px 0 0 0;
+  }
+}

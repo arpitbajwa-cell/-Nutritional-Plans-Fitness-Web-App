@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutritional Plans</title>
+  <style>
+    /* Reset CSS */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffa500;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 40px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .plan {
+      margin-bottom: 30px;
+    }
+
+    .plan h3 {
+      margin-bottom: 10px;
+      color: #ffa500;
+    }
+
+    .plan p {
+      color: #666;
+    }
+
+    .muscle-anatomy {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .muscle-anatomy div {
+      flex: 1;
+    }
+
+    .muscle-anatomy h2 {
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .muscle-info {
+      margin-left: 40px;
+    }
+
+    .muscle-info img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact {
+      background-color: #f0f0f0;
+    }
+
+    #scan-planet-fitness {
+      background-color: #ffa500;
+      color: #fff;
+      text-align: center;
+    }
+
+    #scan-planet-fitness p {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      section {
+        padding: 30px;
+        margin: 10px 0;
+      }
+
+      .muscle-anatomy {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .muscle-info {
+        margin: 20px 0 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nutritional Plans</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#muscle-anatomy">Muscle Anatomy</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#scan-planet-fitness">Scan Planet Fitness</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to our website! We offer personalized nutritional plans tailored to your needs and goals. Our team of experts is here to help you achieve a healthier lifestyle through proper nutrition.</p>
+  </section>
+
+  <section id="plans">
+    <h2>Our Plans</h2>
+    <div class="plan">
+      <h3>Weight Loss Plan</h3>
+      <p>Our weight loss plan is designed to help you shed excess pounds and improve your overall health. It includes balanced meals and personalized guidance to reach your target weight.</p>
+    </div>
+    <div class="plan">
+      <h3>Muscle Gain Plan</h3>
+      <p>If you're looking to build muscle and increase strength, our muscle gain plan is perfect for you. We provide high-protein meals and workout recommendations to help you achieve your fitness goals.</p>
+    </div>
+    <div class="plan">
+      <h3>Main Gain</h3>
+      <p>The Main Gain aims to help the client build muscle while maintaining weight simultaneously.</p>
+    </div>
+  </section>
+
+  <section id="muscle-anatomy" class="muscle-anatomy">
+    <div>
+      <h2>Trapezius</h2>
+      <img src="https://i.postimg.cc/3RHbChRQ/edmonton-bone-joint-shoulder-anatomy-trapezius.jpg" alt="Trapezius Muscle">
+      <p><strong>How it relates to your fitness goals:</strong></p>
+      <ul>
+        <li>Posture: Strengthening the trapezius helps improve shoulder stability and prevents slouching.</li>
+        <li>Neck Health: The upper portion of the trapezius supports the neck and head, alleviating tension and stiffness.</li>
+        <li>Injury Prevention: Weak trapezius muscles can lead to shoulder impingement and rotator cuff injuries.</li>
+      </ul>
+    </div>
+    <div class="muscle-info">
+      <h2>Biceps</h2>
+      <img src="https://i.postimg.cc/fbbMx8FL/Biceps-Tendon-www-steelcitysportsdoc-com.png" alt="Biceps Tendon">
+      <h3>Bicep Anatomy</h3>
+      <p><strong>Long Head:</strong> This part of the bicep starts near the shoulder blade and contributes to the width of your biceps on a front view.</p>
+      <p><strong>Short Head:</strong> This part starts lower on the shoulder and contributes to the peak of your biceps.</p>
+      <p>For additional information about biceps and its role in fitness, <a href="https://www.kenhub.com/en/library/anatomy/biceps-brachii-muscle">understand bicep anatomy</a>.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to start your journey towards better nutrition? Contact us today to schedule a consultation with one of our experts.</p>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="confirmationMessage" style="display: none;">Thank you for your message!</p>
+  </section>
+
+  <section id="scan-planet-fitness">
+    <h2>Scan Planet Fitness</h2>
+    <p>Scan the QR code below to visit Planet Fitness:</p>
+    <div class="qr-code">
+      <img src="https://i.postimg.cc/C5yMRg6n/qrcode-i-pinimg-com.png" alt="QR Code">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Nutritional Plans. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
